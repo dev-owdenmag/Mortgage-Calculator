@@ -1,42 +1,22 @@
-Mortgage Calculator
+# Mortgage Calculator 2.0
 
-Overview:
-This project, "Mortgage Calculator," serves as an early exploration into Java programming, specifically focusing on the development of a tool for mortgage calculations.
+A simple Java-based mortgage calculator that calculates the monthly mortgage payment based on user inputs. The program ensures input validation for the principal amount, interest rate, and loan period.
 
-Version 2.0 Update:
-The recent Version 2.0 update brings significant improvements to the Mortgage Calculator. The key enhancement is:
+## Features
+- Input validation for the principal amount (between $1,000 and $1,000,000).
+- Input validation for the annual interest rate (between 1% and 30%).
+- Input validation for the loan period (between 1 and 30 years).
+- Calculates the monthly mortgage payment using the formula:
+  \[
+  M = P \times \frac{r(1 + r)^n}{(1 + r)^n - 1}
+  \]
+  Where:
+  - \( M \) is the monthly mortgage payment.
+  - \( P \) is the principal loan amount.
+  - \( r \) is the monthly interest rate.
+  - \( n \) is the number of payments.
 
-Input Validation:
-Robust input validation has been implemented, ensuring data integrity and providing a more user-friendly experience.
-Getting Started:
-To experience the Mortgage Calculator and its latest features, follow these steps:
-
-Clone the repository to your local machine.
-
-git clone <https://github.com/dev-owdenmag/javaprojects>
-Navigate to the project directory.
-
-cd mortgage-calculator
-Run the program using your preferred Java compiler.
-
-javac Main.java
-java Main
-Explore the application, input various scenarios, and witness the power of mortgage calculations.
-
-Version History:
-Version 1.0:
-
-Initial creation of the Mortgage Calculator.
-Basic mortgage calculation functionality.
-Version 2.0:
-
-Introduction of input validation for enhanced data reliability.
-Improved user experience and bug fixes.
-
-Contributing:
-Contributions to the Mortgage Calculator project are welcome! If you have ideas for improvements or bug fixes, feel free to submit issues or pull requests.
-
-License:
-This project is licensed under the MIT License.
-
-Happy mortgage calculating! 🏠💰
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dev-owdenmag/Mortgage-Calculator.git
